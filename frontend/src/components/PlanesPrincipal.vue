@@ -62,12 +62,13 @@ const planes = ref([]);
 const loading = ref(true);
 
 // URL de la api en render
-const API_URL = "https://api-vetplus.onrender.com/api/planes";
+const API_URL = "https://api-vetplus.onrender.com";
+// const API_URL = " http://localhost:3000";
 
 // Llamado a la api
 onMounted(async () => {
   try {
-    const res = await fetch(`${API_URL}/tipo/dog`);
+    const res = await fetch(`${API_URL}/api/planes/tipo/dog`);
     planes.value = await res.json();
   } catch (error) {
     console.error("Error al cargar los planes", error);
