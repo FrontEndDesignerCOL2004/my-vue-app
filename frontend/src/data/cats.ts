@@ -1,0 +1,36 @@
+
+export const cats = [
+  {
+    id: 1,
+    nombre: "Plan Diamante",
+    precio: "$86.000",
+    beneficios: [
+      "Atención médica sin límite de eventos.",
+      "Cobertura para condiciones crónicas y degenerativas desde el primer año de afiliación.",
+      "Atención para el tratamiento de cáncer.(aplica periodo de carencia)",
+      "Consultas, hospitalización, cirugías, exámenes diagnósticos todo el año sin límites.",
+      "Cobertura para condiciones médicas congénitas.",
+      "Escoja la clínica veterinaria o el médico de su preferencia.",
+      "Si su mascota necesita atención médica especializada, contamos con un directorio de médicos en el cual usted podrá escoger el de su preferencia.",
+      "Su mascota nunca se quedara sin atención médica, no importa donde viaje o este de vacaciones VetPlus lo acompaña en todo momento en cualquier parte del país.",
+      "Elija el porcentaje de copago de su preferencia.",
+      "Autorizaciones médicas inmediatas, nuestras líneas de atención están disponibles las 24 hrs todos los días.",
+      "Consulte condiciones, restricciones, exclusiones y periodos de carencia",
+    ],
+  },
+  {
+    id: 2,
+    nombre: "Plan Esmeralda",
+    precio: "$65.600",
+    beneficios: [
+      "Atención médica sin límite de eventos.",
+      "Consultas, hospitalización, cirugías exámenes diagnósticos todo el año sin límites.",
+      "Escoja la clínica veterinaria o el médico de su preferencia.",
+      "Si su mascota necesita atención médica especializada, contamos con un directorio de médicos en el cual usted podrá escoger el de su preferencia.",
+      "Su mascota nunca se quedara sin atención médica, no importa donde viaje o este de vacaciones VetPlus lo acompaña en todo momento en cualquier parte del país.",
+      "Elija el porcentaje de copago de su preferencia.",
+      "Autorizaciones médicas inmediatas, nuestras líneas de atención están disponibles las 24 hrs todos los días.",
+      "Consulte condiciones, restricciones, exclusiones y periodos de carencia",
+    ],
+  },
+];
